@@ -323,7 +323,60 @@ html, body {
     font-size: 1.75em;
 }
 
+.album-row{
+    display: flex;
+    margin-bottom: 15px;
+}
 
+.album-image{
+        width: 150px;  
+        border-radius: 10%;  
+}
+
+.album-info{
+  width: 350px;
+    margin-left: 75px;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+.album-title{
+        display: block;
+        width: 100%;       
+        font-size: 1.4em;
+        color: #333;
+        margin-bottom: 15px;    
+}
+
+.album-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.album-align-left
+{
+    float: left;
+    text-align: left;
+}
+
+.album-align-right{
+    float: right;
+    text-align: right;
+}
+
+.album-item{
+    width: 500px;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.album-item:last-child{
+    border-bottom: none;
+}
 
 
 
