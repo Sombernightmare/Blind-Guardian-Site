@@ -99,10 +99,10 @@ html, body {
 
 .about-band-image{
     float: left;
-    height: 200px;
-    width: 200;
-    margin: 15px;
-    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10%;
 }
 
 .btn {
@@ -354,13 +354,13 @@ html, body {
     justify-content: space-around;
 }
 
-.album-align-left
+.item-align-left
 {
     float: left;
     text-align: left;
 }
 
-.album-align-right{
+.item-align-right{
     float: right;
     text-align: right;
 }
@@ -418,16 +418,6 @@ html, body {
     margin-bottom: 15px; 
 }
 
-.band-align-left{
-    float: left;
-    text-align: left;
-}
-
-.band-align-right{
-    float: right;
-    text-align: right;
-}
-
 .band-item:last-child{
     border: none;
 }
@@ -435,14 +425,6 @@ html, body {
 .band-member-text{
     font-size: 1.2em;
 }
-
-
-
-
-
-
-
-
 
 /***** Footers *****/
 
