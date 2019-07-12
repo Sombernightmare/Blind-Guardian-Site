@@ -194,7 +194,7 @@ html, body {
     display: block;
     width: 100%;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #333;
     margin-bottom: 15px;
 }
@@ -378,8 +378,63 @@ html, body {
     border-bottom: none;
 }
 
+.band-member-image{
+    width: 190px;
+    border-radius: 10%;
+    margin: 10px;    
+}
 
+.band-image-right{
+    float: right;
+}
 
+.band-image-left{
+    float: left;
+}
+
+.band-member-details {
+    float: left;
+}
+
+.band-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.band-item{
+    width: 500px;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding-bottom: 20px;   
+}
+
+.band-member-title{
+    display: block;
+    width: 100%;       
+    font-size: 1.4em;
+    color: #333;
+    margin-bottom: 15px; 
+}
+
+.band-align-left{
+    float: left;
+    text-align: left;
+}
+
+.band-align-right{
+    float: right;
+    text-align: right;
+}
+
+.band-item:last-child{
+    border: none;
+}
+
+.band-member-text{
+    font-size: 1.2em;
+}
 
 
 

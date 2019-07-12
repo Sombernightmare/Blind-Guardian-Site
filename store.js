@@ -29,7 +29,7 @@ function ready() {
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
 }
 
-function purchaseClicked() {
+function purchaseClicked() {    
     alert("Thank you for your purchase")
     var cartItems = document.getElementsByClassName('cart-items')[0]
 
@@ -86,9 +86,6 @@ function quantityChanged(event) {
 
     updateTotal()
 }
-
-
-
 
 function removeCartIem(event) {
     var btnClicked = event.target
